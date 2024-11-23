@@ -1,7 +1,5 @@
 import FaqItem from './FAQItem';
-
-
-
+import { FAQ_DATA } from '@/constants/global.constant';
 
 const FAQ = () => {
   return (

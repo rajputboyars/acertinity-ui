@@ -402,5 +402,29 @@ const DUMMYCONTENT = [
       title: "Moby-Dick",
     },
   ];
+  const FAQ_DATA = [
+    {
+      id: 1,
+      question: "What is your return policy?",
+      answer: "You can return any item within 30 days of purchase as long as it is in its original condition and packaging."
+    },
+    {
+      id: 2,
+      question: "Do you offer international shipping?",
+      answer: "Yes, we ship to most countries worldwide. Shipping fees and delivery times vary by location."
+    },
+    {
+      id: 3,
+      question: "How can I track my order?",
+      answer: "Once your order is shipped, you will receive a tracking number via email. You can use this number to track your order on our website."
+    },
+    {
+      id: 4,
+      question: "What payment methods do you accept?",
+      answer: "We accept major credit cards, PayPal, and other secure payment methods, depending on your location."
+    }
+  ];
+  
 
-  export { CARDS , CONTENT , DUMMYCONTENT , TESTIMONIALS , NAV_ITEMS , CASE_STUDIES}
+
+  export { CARDS , CONTENT , DUMMYCONTENT , TESTIMONIALS , NAV_ITEMS , CASE_STUDIES, FAQ_DATA}
