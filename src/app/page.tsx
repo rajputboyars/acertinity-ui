@@ -28,10 +28,6 @@ export default function Home() {
         <h1 className="text-center text-3xl md:text-5xl">OUR CLIENTS</h1>
         <StickyScrollRevealDemo />
       </div>
-      <div id="portfolio">
-        <h1 className="text-center text-3xl md:text-5xl">Portfolio</h1>
-        <TracingBeamDemo />
-      </div>
       <div id="reviews">
         <h1 className="text-3xl md:text-5xl text-center">Reviews</h1>
         <Demo />
