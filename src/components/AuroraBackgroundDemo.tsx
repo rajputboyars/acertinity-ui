@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "./ui/AuroraBackground";
 import { ThreeDCardDemo } from "./ThreeDCardDemo";
-// import { AuroraBackground } from "../ui/aurora-background";
+import { ABOUT_SECTION } from "@/constants/global.constant"
 
 export function AuroraBackgroundDemo() {
     return (
@@ -20,14 +20,14 @@ export function AuroraBackgroundDemo() {
                 className="px-4">
                 <div className="grid md:grid-cols-2 md:items-center">
                     <div className=" text-left max-md:flex max-md:items-center max-md:flex-col">
-                        <div className="text-3xl md:text-7xl font-bold dark:text-white ">
-                            Background lights are cool you know.
+                        <div className="text-3xl md:text-6xl font-bold dark:text-white ">
+                            {ABOUT_SECTION.hookLineFirst}
                         </div>
-                        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 ">
-                            And this, is chemical burn.
+                        <div className="font-extralight text-base md:text-5xl dark:text-neutral-200 py-4 ">
+                            {ABOUT_SECTION.hookLineSecond}
                         </div>
-                        <button className="bg-black border-white border rounded-full w-fit text-white px-4 py-2">
-                            Debug now
+                        <button className="bg-black border-white border rounded-lg w-fit text-white px-4 py-2">
+                            {ABOUT_SECTION.buttonText}
                         </button>
                     </div>
                     <div className="max-md:hidden">

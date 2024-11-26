@@ -58,10 +58,10 @@ export const StickyScroll = ({
     style={{
         scrollbarWidth:"none"
     }}
-      className=" h-[300px] w-full overflow-y-auto flex justify-center relative md:space-x-10 rounded-md md:p-10  border border-gray-700"
+      className=" h-[450px] w-full overflow-y-auto flex justify-center relative md:space-x-10 rounded-md md:p-10  border border-gray-700"
       ref={ref}
     >
-      <div className="div max-md:hidden relative flex items-start pb-96 pt-20 px-4 w-1/2">
+      <div className="div relative flex items-start px-4 md:w-1/2 w-full">
         <div className="w-full">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
@@ -83,7 +83,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 mt-10"
+                className="text-lg text-slate-300 mt-10 max-w-96"
               >
                 {item.description}
               </motion.p>
@@ -95,7 +95,7 @@ export const StickyScroll = ({
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "max-md:hidden block md:h-[80%] md:w-1/2 rounded-md bg-white sticky top-10 overflow-hidden",
+          "max-md:hidden block md:h-[100%] md:w-1/2 rounded-md bg-white sticky top-2 overflow-hidden",
           contentClassName
         )}
       >

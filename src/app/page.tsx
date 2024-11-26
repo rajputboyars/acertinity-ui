@@ -1,36 +1,37 @@
 import { AnimatedModalDemo } from "@/components/AnimatedModalDemo";
 import { AuroraBackgroundDemo } from "@/components/AuroraBackgroundDemo";
 import Demo from "@/components/Demo";
-import { LayoutGridDemo } from "@/components/LayoutGridDemo";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
-import { TracingBeamDemo } from "@/components/TracingBeamDemo";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { InfiniteMovingCards } from "@/components/ui/InfiniteMovingCards";
-import {FAQ } from "@/components/FAQ/index.js"
-import {NAV_ITEMS,CASE_STUDIES } from "@/constants/global.constant"
-
-
-
-
-
+import { FAQ } from "@/components/FAQ/index.js"
+import { NAV_ITEMS, CASE_STUDIES } from "@/constants/global.constant"
+import SimpleCard from "@/components/Card"
+import { FEATURE_SECTION } from "@/constants/global.constant"
+import { FocusCards } from "@/components/ui/FocusVideoCards";
 export default function Home() {
   return (
-    <div className="bg-black text-white relative max-md:px-4">
+    <div className="bg-black text-white relative max-md:px-8">
       <FloatingNav navItems={NAV_ITEMS} />
       <div id="home" className="">
         <AuroraBackgroundDemo />
       </div>
       <div id="feature-section">
         <h1 className="text-3xl md:text-5xl text-center">Feature Section</h1>
-        <LayoutGridDemo />
+        {/* <LayoutGridDemo /> */}
+        <FocusCards cards={FEATURE_SECTION} />
       </div>
       <div id="our-clients">
         <h1 className="text-center text-3xl md:text-5xl">OUR CLIENTS</h1>
         <StickyScrollRevealDemo />
       </div>
-      <div id="portfolio">
-        <h1 className="text-center text-3xl md:text-5xl">Portfolio</h1>
-        <TracingBeamDemo />
+      <div id="hear-it">
+        <h1 className="text-center text-3xl md:text-5xl">Hear it directly from our Clients</h1>
+        <p>Hear what our clients have to say.Our testimonials reflect the satisfaction our clients have in our services.</p>
+        <div >
+          {/* <SimpleCard />
+          <SimpleCard /> */}
+        </div>
       </div>
       <div id="reviews">
         <h1 className="text-3xl md:text-5xl text-center">Reviews</h1>
@@ -53,19 +54,7 @@ export default function Home() {
       <div id="book-your-ticket">
         <h1 className="text-3xl md:text-5xl text-center">
           Book Your Ticket
-            </h1>
-          {/* <div className="h-full w-full flex items-center justify-center text-white">
-            <iframe
-              src="https://www.youtube.com/@Luke_Infinger?autoplay=1&mute=1&loop=1"
-              width={300}
-              height={500}
-              className="h-full w-full object-cover"
-              title="YouTube video player"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-            ></iframe>
-          </div> */}
-
+        </h1>
         <AnimatedModalDemo />
       </div>
     </div>
