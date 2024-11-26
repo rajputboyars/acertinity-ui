@@ -68,52 +68,53 @@ const SkeletonFour = () => {
   );
 };
 
-const FEATURE_SECTION = [
-  {
-    id: 1,
-    content: <SkeletonOne />,
-    className: "md:col-span-2",
-    thumbnail: "/images/image1.webp",
-    // need short video thumbnail image
-  },
-  {
-    id: 2,
-    content: <SkeletonTwo />,
-    className: "col-span-1",
-    thumbnail: "/images/image1.webp",
-    // need long video thumbnail image
-  },
-  {
-    id: 3,
-    content: <SkeletonThree />,
-    className: "col-span-1",
-    thumbnail: "/images/image1.webp",
-    // Podcast Editing
-  },
-  {
-    id: 4,
-    content: <SkeletonFour />,
-    className: "md:col-span-2",
-    thumbnail: "/images/image1.webp",
-    // Thumbnails
-  },
-  // {
-  //   id: 5,
-  //   content: <SkeletonFour />,
-  //   className: "md:col-span-2",
-  //   thumbnail:
-  //     "/images/image1.webp",
-  //     // Product Explainer Videos
-  // },
-];
+// const FEATURE_SECTION = [
+//   {
+//     id: 1,
+//     content: <SkeletonOne />,
+//     className: "md:col-span-2",
+//     thumbnail: "/images/image1.webp",
+//     // need short video thumbnail image
+//   },
+//   {
+//     id: 2,
+//     content: <SkeletonTwo />,
+//     className: "col-span-1",
+//     thumbnail: "/images/image1.webp",
+//     // need long video thumbnail image
+//   },
+//   {
+//     id: 3,
+//     content: <SkeletonThree />,
+//     className: "col-span-1",
+//     thumbnail: "/images/image1.webp",
+//     // Podcast Editing
+//   },
+//   {
+//     id: 4,
+//     content: <SkeletonFour />,
+//     className: "md:col-span-2",
+//     thumbnail: "/images/image1.webp",
+//     // Thumbnails
+//   },
+//   // {
+//   //   id: 5,
+//   //   content: <SkeletonFour />,
+//   //   className: "md:col-span-2",
+//   //   thumbnail:
+//   //     "/images/image1.webp",
+//   //     // Product Explainer Videos
+//   // },
+// ];
 
 const OUR_CLIENTS = [
   {
     title: "Legal Lounge",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
-          src="https://www.youtube.com/@Legal.Lounge"
+          src="https://www.youtube.com/embed/PmwvOV5Lq5Q?si=zRBg7Z0mXhDH5U2s"
           width={300}
           height={300}
           className="h-full w-full object-cover overflow-hidden"
@@ -126,12 +127,13 @@ const OUR_CLIENTS = [
   },
   {
     title: "Leon Hendrix",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/GPuzEZxGs6M?si=MHuu2K_KC1X8rF9d"
+          src="https://www.youtube.com/embed/sJdjCy35Hww?si=Pv2KRqMZFcIvmSUN"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -143,12 +145,13 @@ const OUR_CLIENTS = [
   },
   {
     title: "HIP Creative",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/JRAnbadY-lI?si=Tyk10EAp3klBmbvo"
+          src="https://www.youtube.com/embed/R0CfLm0brJ8?si=gxxIqbpJUo84Q0Qm"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -160,12 +163,13 @@ const OUR_CLIENTS = [
   },
   {
     title: "Magical AI",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/uWdCJzQt-tM?si=GcN6vKEFG5w2_yUL"
+          src="https://www.youtube.com/embed/w42zsR8oWOQ?si=3Rb3ImpwzpHWLiOG"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -177,12 +181,13 @@ const OUR_CLIENTS = [
   },
   {
     title: "Kaleb",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/jcajyXV13TU?si=hg6UhNf79Ya8z6LL"
+          src="https://www.youtube.com/embed/MjT_9XfvEcE?si=e4CbwmRAg7tCf-R0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -194,6 +199,7 @@ const OUR_CLIENTS = [
   },
   {
     title: "Luke Infinger",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -211,10 +217,11 @@ const OUR_CLIENTS = [
   },
   {
     title: "Versed",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
-          src="https://www.youtube.com/@Versedyoutube?&mute=1&loop=1&playlist=Versedyoutube"
+          src="https://www.youtube.com/embed/M4dQP7c_bjM?si=VZdKi9yoY2vcVK_s"
           width={300}
           height={300}
           className="h-full w-full object-cover overflow-hidden"
@@ -227,6 +234,7 @@ const OUR_CLIENTS = [
   },
   {
     title: "PracticeBeacon",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -577,6 +585,25 @@ const PORTFOLIO_NAVLINKS = [
     link: "/portfolio#vsls-thumbnail",
   },
 ];
+
+const FEATURE_SECTION =[
+  {
+    title: "The First Rule",
+    src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
+  },
+  {
+    title: "The First Rule",
+    src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
+  },
+  {
+    title: "The First Rule",
+    src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
+  },
+  {
+    title: "The First Rule",
+    src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
+  },
+]
 
 export {
   FEATURE_SECTION,

@@ -1,5 +1,5 @@
-import { FocusCards } from "./ui/FocusCards";
+import { FocusCards } from "./ui/FocusVideoCards";
 
-export function FocusCardsDemo({data}) {
+export function FocusCardsDemo({ data }) {
   return <FocusCards cards={data} />;
 }
