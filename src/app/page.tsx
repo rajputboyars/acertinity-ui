@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div id="book-your-ticket">
         <h1 className="text-3xl md:text-5xl text-center">
-          Book Your Ticket
+          Book Your Fav Ticket
         </h1>
         <AnimatedModalDemo />
       </div>
