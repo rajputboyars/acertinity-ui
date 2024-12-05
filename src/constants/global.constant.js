@@ -110,7 +110,8 @@ const SkeletonFour = () => {
 const OUR_CLIENTS = [
   {
     title: "Legal Lounge",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -127,7 +128,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "Leon Hendrix",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -137,7 +139,7 @@ const OUR_CLIENTS = [
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
@@ -145,7 +147,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "HIP Creative",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -155,7 +158,7 @@ const OUR_CLIENTS = [
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
@@ -163,7 +166,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "Magical AI",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -173,7 +177,7 @@ const OUR_CLIENTS = [
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
@@ -181,7 +185,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "Kaleb",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -191,7 +196,7 @@ const OUR_CLIENTS = [
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
@@ -199,7 +204,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "Luke Infinger",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -209,7 +215,7 @@ const OUR_CLIENTS = [
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
       </div>
@@ -217,7 +223,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "Versed",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -234,7 +241,8 @@ const OUR_CLIENTS = [
   },
   {
     title: "PracticeBeacon",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis quod culpa alias earum vitae voluptatem excepturi quam qui vel?",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <iframe
@@ -586,7 +594,7 @@ const PORTFOLIO_NAVLINKS = [
   },
 ];
 
-const FEATURE_SECTION =[
+const FEATURE_SECTION = [
   {
     title: "The First Rule",
     src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
@@ -603,7 +611,7 @@ const FEATURE_SECTION =[
     title: "The First Rule",
     src: "https://www.youtube.com/embed/Hvr9pbdwHDE?si=TswN9Iy6ECG5nRZZ",
   },
-]
+];
 
 export {
   FEATURE_SECTION,

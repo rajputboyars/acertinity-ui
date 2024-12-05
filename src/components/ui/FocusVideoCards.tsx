@@ -30,12 +30,12 @@ export const Card = React.memo(
                 className="object-cover absolute inset-0"
             /> */}
             <iframe src={card.src} title="YouTube video player"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-             referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
-             className="w-full h-full object-cover absolute inset-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
+                className="w-full h-full object-cover absolute inset-0"
             //  height={160}
-             >
-             </iframe>
+            >
+            </iframe>
             <div
                 className={cn(
                     "absolute inset-0 bg-black/50 flex items-end py-8 px-4 transition-opacity duration-300",
@@ -64,7 +64,7 @@ export function FocusCards({ cards }: { cards: Card[] }) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mx-auto md:px-8 w-full">
             {cards.map((card, index) => (
                 <Card
-                    key={card.title}
+                    key={index}
                     card={card}
                     index={index}
                     hovered={hovered}

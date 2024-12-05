@@ -18,8 +18,8 @@ export function AuroraBackgroundDemo() {
                     ease: "easeInOut",
                 }}
                 className="px-4">
-                <div className="grid md:grid-cols-2 md:items-center">
-                    <div className=" text-left max-md:flex max-md:items-center max-md:flex-col">
+                {/* <div className="md:items-center"> */}
+                    <div className=" text-center max-md:flex max-md:items-center max-md:flex-col">
                         <div className="text-3xl md:text-6xl font-bold dark:text-white ">
                             {ABOUT_SECTION.hookLineFirst}
                         </div>
@@ -30,10 +30,7 @@ export function AuroraBackgroundDemo() {
                             {ABOUT_SECTION.buttonText}
                         </button>
                     </div>
-                    <div className="max-md:hidden">
-                        <ThreeDCardDemo />
-                    </div>
-                </div>
+                {/* </div> */}
             </motion.div>
         </AuroraBackground>
     );

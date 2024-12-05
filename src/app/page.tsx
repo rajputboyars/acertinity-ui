@@ -19,23 +19,18 @@ export default function Home() {
       <div id="feature-section">
         <h1 className="text-3xl md:text-5xl text-center">Feature Section</h1>
         {/* <LayoutGridDemo /> */}
-        <FocusCards cards={FEATURE_SECTION} />
+        <div className="mt-14 mb-28">
+          <FocusCards cards={FEATURE_SECTION} />
+        </div>
       </div>
       <div id="our-clients">
         <h1 className="text-center text-3xl md:text-5xl">OUR CLIENTS</h1>
         <StickyScrollRevealDemo />
       </div>
-      <div id="hear-it">
-        <h1 className="text-center text-3xl md:text-5xl">Hear it directly from our Clients</h1>
-        <p>Hear what our clients have to say.Our testimonials reflect the satisfaction our clients have in our services.</p>
-        <div >
-          {/* <SimpleCard />
-          <SimpleCard /> */}
-        </div>
-      </div>
+      
       <div id="reviews">
         <h1 className="text-3xl md:text-5xl text-center">Reviews</h1>
-        <Demo />
+        {/* <Demo /> */}
       </div>
       <div id="case-studies" className="md:py-20 py-10">
         <div className=" rounded-md flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
