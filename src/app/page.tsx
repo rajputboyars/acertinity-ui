@@ -16,25 +16,25 @@ export default function Home() {
       <div id="home" className="">
         <AuroraBackgroundDemo />
       </div>
-      <div id="feature-section">
-        <h1 className="text-3xl md:text-5xl text-center">Feature Section</h1>
+      <div id="feature-section" className="max-w-[1280px] w-full mx-auto">
+        <h1 className="text-3xl md:text-5xl text-center">Our Features</h1>
         {/* <LayoutGridDemo /> */}
         <div className="mt-14 mb-28">
           <FocusCards cards={FEATURE_SECTION} />
         </div>
       </div>
-      <div id="our-clients">
+      <div id="our-clients" className="max-w-[1280px] w-full mx-auto">
         <h1 className="text-center text-3xl md:text-5xl">OUR CLIENTS</h1>
         <StickyScrollRevealDemo />
       </div>
       
-      <div id="reviews">
-        <h1 className="text-3xl md:text-5xl text-center">Reviews</h1>
-        {/* <Demo /> */}
+      <div id="reviews" className="max-w-[1280px] w-full mx-auto">
+        <h1 className="text-3xl md:text-5xl text-center">Our Reviews</h1>
+        <Demo />
       </div>
       <div id="case-studies" className="md:py-20 py-10">
         <div className=" rounded-md flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-          <h1 className="text-center text-3xl md:text-5xl">Case Studies</h1>
+          <h1 className="text-center text-3xl md:text-5xl">Our Case Studies</h1>
           <InfiniteMovingCards
             items={CASE_STUDIES}
             direction="right"
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
       <div id="faq" className="max-w-7xl m-auto border rounded-lg pt-6 mb-6">
-        <h1 className="text-3xl md:text-5xl text-center">FAQ</h1>
+        <h1 className="text-3xl md:text-5xl text-center">Our FAQ</h1>
         <FAQ />
       </div>
       <div id="book-your-ticket">
